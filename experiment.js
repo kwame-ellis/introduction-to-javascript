@@ -1,9 +1,7 @@
-const monthlyRent = 500;
+const firstName = "Michael"
 
-let  yearlyRent = monthlyRent * 12;
+const lastName = "Ellis"
 
-console.log(monthlyRent,  yearlyRent);
+const sentence = ("Hello " + firstName +  " " + lastName  + "! How are you?")
 
-yearlyRent = 1;
-
-console.log(yearlyRent);
+console.log(sentence);

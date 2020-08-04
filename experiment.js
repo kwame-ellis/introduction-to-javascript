@@ -1,7 +1,10 @@
-//usage of the strict equality operator.
+//implementing control and equality operators to carry out logic, starting out with an if statement and expression.
 
-if (2 +2  === 4) {
-    console.log("Hooray, maths still works!");
+const areTheLightsOn = true;
+
+if (areTheLightsOn) {
+    //turn the light off
 }  else {
-    console.log("Uh, panic?");
+    //turn the light on
 }
+

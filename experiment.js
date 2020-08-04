@@ -1,12 +1,11 @@
-//an 'else if' statement into the 'if' statement, an additional condition for determining evaluated statements.
+//how to implement a 'while' loop.
 
-const friendsAtYourParty = 2;
+let friendsAtYourParty = 0;
 
-if (friendsAtYourParty === 0) {
-    console.log("Cool, now I have all the nachos to myself...");
-} else if (friendsAtYourParty <= 4) {
-    console.log("Perfect amount to play some Mario Kart");
-} else {
-    console.log("Wooooo, play the dance music!");
+while(friendsAtYourParty < 10) {
+    console.log(friendsAtYourParty);
+    friendsAtYourParty = friendsAtYourParty + 1;
 }
+
+console.log(friendsAtYourParty);    
 

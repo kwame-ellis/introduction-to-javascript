@@ -1,7 +1,3 @@
-const firstName = "Michael"
+const isTheSkyBlue = true;
 
-const lastName = "Ellis"
-
-const sentence = `Hello ${firstName} ${lastName}! How are you?`
-
-console.log(sentence);
+console.log(isTheSkyBlue);

@@ -1,7 +1,7 @@
-const isTheSkyBlue = true;
+//usage of the strict equality operator.
 
-if (isTheSkyBlue) {
-    console.log("Wow, Its time to throw my shades on...what a lovely weather!")
-}    else {
-    console.log("Is it gonna rain?")
+if (2 +2  === 4) {
+    console.log("Hooray, maths still works!");
+}  else {
+    console.log("Uh, panic?");
 }

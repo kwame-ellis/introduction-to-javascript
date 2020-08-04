@@ -1,3 +1,7 @@
-const num =  23;
+const isTheSkyBlue = true;
 
-console.log(num);
+if (isTheSkyBlue) {
+    console.log("Wow, Its time to throw my shades on...what a lovely weather!")
+}    else {
+    console.log("Is it gonna rain?")
+}

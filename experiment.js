@@ -1,3 +1,3 @@
-const isTheSkyBlue = true;
+const num =  23;
 
-console.log(isTheSkyBlue);
+console.log(num);

@@ -1,19 +1,4 @@
-//alters positions of variable references and declarations to help explain how scope affects outcomes.
+console.log(Math.min(4,  5,  0.6));
 
-let something = "outside the function";
-
-function thing () {
-  let something = "outside the if statement";
-  
-  if (true) {
-      let something = "inside the if statement";
-      console.log(something);
-    }
-
-    console.log(something);
-  }
-
-  thing();
-
-  console.log(something)
-  
+const name = "Michael Ellis";
+console.log(name.substr(6));

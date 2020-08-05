@@ -3,25 +3,40 @@ let points = 0;
 function australia(userAnswer) {
   // what is the capital of australia?
   // 100 pts
-  const isCorrect = userAnswer === 'Canberra';
+  const isCorrect = userAnswer.toUpperCase === "CANBERRA";
   
   if (isCorrect) {
     points += 100; 
   }
+  
   return isCorrect;
 }
 
 function canada(userAnswer) {
   // what is the capital of canada?
   // 100 pts
-  
+
+  const isCorrect = userAnswer.toUpperCase === "OTTAWA";
+
+  if(isCorrect) {
+      points += 200;
+  }
+
+  return isCorrect;
 }
 
 function uppercase(userAnswer, word) {
   // what is <word> in all capital letters?
   // 200 pts
-  
-}
+
+  const isCorrect = userAnswer  === word.toUpperCase();
+
+  if (isCorrect) {
+      points += 200;
+  }
+
+  return isCorrect
+  }
 
 function firstThreeLetters(userAnswer, word) {
   // what are the first three letters of <word>?
@@ -34,12 +49,13 @@ function squared(userAnswer, number) {
   // 200 pts
   
   const isCorrect = userAnswer == number ** 2;
-  
+
 }
 
 function multiplication(userAnswer, num1, num2) {
   // what is <num1> multiplied by <num2>?
   // 300 pts
+
   
 }
 

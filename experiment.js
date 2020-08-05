@@ -1,11 +1,9 @@
-const character = "f";
-const timeToRepeat = 5;
-let answer = "";
-
-for (let i = 0; i < timeToRepeat; i++){
-    answer += character;
+function greet(salutation,firstName, surname) {
+    return `Hello ${salutation} ${firstName} ${surname}! I am extremely pleased you could join us. I hope you enjoy your star ${salutation} ${surname} :). `
+ 
 }
 
+console.log(greet("Captain","Michael","Ellis",));
 
-console.log(answer);
+
 

@@ -1,27 +1,28 @@
-//object data structure in JavaScript.
+/*
+Objects(context)
 
-const person1 = {
-  name: "Brian",
-  ageRange: "25-35"
-};
-const person2 = {
-  name: "Jack",
-  ageRange: "65-75"
-};
+the behavior of the 'this' keyword and related errors that commonly occur.
 
-function suggestMusic(person) {
-  if (person.ageRange === "25-35") {
-    console.log("We think you'll like Daft Punk you crazy millenial.");
-  } else if (person.ageRange === "65-75") {
-    console.log(
-      "You're obviously going to like Johnny Cash. He walks the line."
-    );
-  } else {
-    console.log(
-      "Uh, maybe try David Bowie? Everyone likes David Bowie, right?"
-    );
+*/
+const me = {
+  name: {
+    first: "Brian",
+    last: "Holt"
+  },
+  location: {
+    streetNumber: 500,
+    street: "Fakestreet",
+    city: "Seattle",
+    state: "WA",
+    zipCode: 55555,
+    country: "USA"
+  },
+  getAddress() {
+    return `${this.name.first} ${this.name.last}
+${this.location.streetNumber} ${this.location.street}
+${this.location.city}, ${this.location.state} ${this.location.zipCode}
+${this.location.country}`;
   }
-}
+};
 
-suggestMusic(person1);
-suggestMusic(person2);
+console.log(me.getAddress());
